@@ -1,0 +1,3 @@
+enum EnemyType {
+  PLAYER, ZOMBIE
+}

@@ -1,0 +1,27 @@
+name: pocket_dungeons
+description: A simple game using the Flame Engine.
+
+version: 0.1.0
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^0.15.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+   - assets/images/tileset.png
+   - assets/images/player.png
+   - assets/images/zombie.png
+
+  fonts:
+   - family: BitPotion
+     fonts:
+       - asset: assets/fonts/BitPotionExt.ttf
